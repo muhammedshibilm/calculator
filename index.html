@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculator</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://images.unsplash.com/photo-1561112079-2c3226d9c559?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80">
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-body">
+    <div class="cal">
+      <input type="text" id="inp">
+      <button onclick="clearT()" class="btn">C</button>
+      <div class="row">
+        <button class="btn" onclick="btnClick(7)">7</button>
+          <button class="btn" onclick="btnClick(8)">8</button>
+            <button class="btn" onclick="btnClick(9)">9</button>
+              <button class="btn" onclick="btnClick('/')">/</button>
+              
+      </div>
+        <div class="row">
+        <button class="btn" onclick="btnClick(4)">4</button>
+          <button class="btn" onclick="btnClick(5)">5</button>
+            <button class="btn" onclick="btnClick(6)">6</button>
+              <button class="btn" onclick="btnClick('*')">X</button>
+              
+      </div>
+        <div class="row">
+          <button class="btn" onclick="btnClick(1)">1</button>
+          <button class="btn" onclick="btnClick(2)">2</button>
+          <button class="btn" onclick="btnClick(3)">3</button>
+          <button class="btn" onclick="btnClick('-')">-</button>
+      
+        </div>
+          <div class="row">
+            <button class="btn" onclick="btnClick('.')">.</button>
+            <button class="btn" onclick="btnClick(0)">0</button>
+            <button class="btn" onclick="btnClick('+')">+</button>
+            <button class="btn" onclick="equalClick()">=</button>
+        
+          </div>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
