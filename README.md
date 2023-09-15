@@ -2,7 +2,7 @@
 
 A simple calculator web application built using HTML, CSS, and JavaScript. This calculator allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-![Calculator Demo](private/demo.gif)
+![Calculator Demo](demo.gif)
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ A simple calculator web application built using HTML, CSS, and JavaScript. This 
 
 Check out the live demo of the calculator [here](https://your-demo-link.com).
 
-![Calculator Demo](private/demo.gif)
+![Calculator Demo](demo.gif)
 
 ## Getting Started
 
