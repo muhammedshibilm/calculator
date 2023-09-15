@@ -24,7 +24,7 @@ A simple calculator web application built using HTML, CSS, and JavaScript. This 
 
 ## Demo
 
-Check out the live demo of the calculator [here](https://your-demo-link.com).
+Check out the live demo of the calculator [here](https://muhammedshibilm.github.io/calculator/).
 
 ![Calculator Demo](demo.gif)
 
